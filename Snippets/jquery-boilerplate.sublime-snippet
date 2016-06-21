@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[var app = new function() {
+    
+    // Private functions
+    var initFoundation = function() {
+        $(document).foundation();
+        console.log('Initialized Foundation.');
+    }
+    
+    return {
+        // Public functions
+        init: function() {
+            initFoundation();
+        }
+    }
+    
+}
+
+app.init();
+
+]]></content>
+<tabTrigger>jquery</tabTrigger>
+<description>jQuery boilerplate</description>
+</snippet>

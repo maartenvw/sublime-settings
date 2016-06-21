@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[/* mobile styles */
+@media only screen {$1}
+
+/* max-width 640px, mobile-only styles */
+@media only screen and (max-width: 40em) {$2}
+
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {$3}
+
+/* min-width 641px and max-width 1024px */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {$4}
+
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {$5}
+
+/* min-width 1025px and max-width 1440px */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {$6}
+
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 90.063em) {$7}
+
+/* min-width 1441px and max-width 1920px */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {$8}
+
+/* min-width 1921px, xxlarge screens */
+@media only screen and (min-width: 120.063em) {$9}
+
+]]></content>
+<tabTrigger>css3</tabTrigger>
+<description>CSS3 boilerplate</description>
+</snippet>

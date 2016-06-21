@@ -1,0 +1,44 @@
+<snippet>
+<content><![CDATA[<!DOCTYPE html>
+<html lang="${1:en}" ng-app>
+    <head>
+        <meta charset="utf-8" />
+        
+        <title>${2:Untitled Project}</title>
+        
+        <!--[if lt IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <![endif]-->
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="$3" />
+        ${4:
+        <link rel="shortcut icon" href="favicon.ico">}${5:
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" />}${6:
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/css/foundation.min.css" />}
+        
+        <link rel="stylesheet" href="${7:css/main.css}" />
+    </head>
+    <body>
+        <div class="row">
+            <div class="columns">
+                <h1>$2</h1>
+                
+                <form>
+                    <input type="text" ng-model="search" />
+                </form>
+                
+                {{ search }}
+            </div>
+        </div>
+        ${8:
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>}${9:
+        <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script>}${10:
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.0/angular.min.js"></script>}
+        <script src="${11:js/main.js}"></script>
+    </body>
+</html>
+
+]]></content>
+<tabTrigger>angular-cdn-html5</tabTrigger>
+</snippet>

@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApacheConf.tmLanguage",
+		"ColorPicker",
+		"CSS3",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"Laravel Blade Highlighter",
+		"Material Theme",
+		"Material Theme - White Panels",
+		"Minify",
+		"Package Control",
+		"PHP Companion",
+		"Sass",
+		"SassBeautify",
+		"SideBarEnhancements",
+		"SublimeLinter-contrib-eslint",
+		"Terminal",
+		"Themr"
+	]
+}

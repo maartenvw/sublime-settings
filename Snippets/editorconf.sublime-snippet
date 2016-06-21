@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = false
+insert_final_newline = true
+
+]]></content>
+<tabTrigger>editorconf</tabTrigger>
+</snippet>
